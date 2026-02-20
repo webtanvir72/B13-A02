@@ -1,0 +1,104 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 32px;
+    padding: 0px;
+    list-style: none;
+}
+.navbar ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.hamburger {
+    display: none;
+}
+.btn-primary {
+    width: 136px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: white;
+    border: navajowhite;
+    background:linear-gradient(40deg, #F7E93F, #FB09B4, #9100F8) ;
+
+}
+.btn:hover{transform: scale(1.15);
+    transition: transform 200ms ease-in-out ;
+    cursor: pointer;
+}
+.shadow:hover{
+    box-shadow: 10px 10px 10px #9100f834;
+}
+.banner-section{
+    height: 760px;
+    border-top: 1px solid #2a186c;
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-images{
+    height: 350px;
+    width: 350px;
+    background-image: url(assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.new{
+
+}
+.banner-title {
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+.banner-buttons{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.spotify{
+    width: 200px;
+
+}
+.subscribe{
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 12px 20px;
+    color: #00FF88;
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.7);
+}
+.gradient{
+    background: linear-gradient(45deg,  #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
+
+}
+
+

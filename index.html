@@ -1,86 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="./style.css">
 </head>
-<body> 
+
+<body>
     <header>
-                    <!-- Nevbar -->
-    <nav class="navbar">
-        <h2 class="text-B btn">
-            Tech<span class="gradient">Wave</span>
-        </h2>
-        <ul>
-            <li class="btn"><a href="">About</a></li>
-            <li class="btn"><a href="">Episode</a></li>
-            <li class="btn"><a href="">Host</a></li>
-        </ul>
-        <button class="btn-primary">
-            <p>Subscribe</p>
-        </button>
-        <div class="hamburger shadow ">
-            <a href="">
-                <img src="./assets/hamburger-menu.png" alt="">
-            </a>
-        </div>
-    </nav>
-       <!-- banar section -->
-    <div class="banner-section">
-        <div class="banner-content">
-            <div class="btn banner-images">
-                <img src="assets/microphone.png" alt="">
-                <div class="new">
-                    <p>NEW</p>
+        <!-- Nevbar -->
+        <nav class="navbar container">
+            <h2 class="text-B btn">
+                Tech<span class="gradient">Wave</span>
+            </h2>
+            <ul>
+                <li class="btn"><a href="">About</a></li>
+                <li class="btn"><a href="">Episode</a></li>
+                <li class="btn"><a href="">Host</a></li>
+            </ul>
+            <button class="btn-primary btn">
+                Subscribe <span>
+                    <img src="assets/arow.png" alt="">
+                </span>
+            </button>
+            <div class="hamburger shadow ">
+                <a href="">
+                    <img src="./assets/hamburger-menu.png" alt="">
+                </a>
+            </div>
+        </nav>
+        <!-- banar section -->
+        <div class="banner-section">
+            <div class="banner-content">
+                <div class="btn banner-images">
+                    <img src="assets/microphone.png" alt="">
+                    <div class="new">
+                        <p>NEW</p>
+                    </div>
+                </div>
+                <div class="banner-description">
+                    <h2 class="banner-title">Tech<span class="gradient">Wave</span></h2>
+                    <p class="banner-p text-gray">Your daily dose of tech insights, productivity hacks, and personal
+                        growth</p>
+                    <div class="banner-buttons">
+                        <button class="btn btn-primary spotify">
+                          <span><img src="assets/spotify.png" alt=""></span>Listen On Spotify
+                        </button>
+                        <button class="subscribe btn"><span><img src="assets/message.png" alt=""></span>Subscribe
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="banner-description">
-                <h2 class="banner-title">Tech<span class="gradient">Wave</span></h2>
-                <p class="banner-p text-gray">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div class="banner-buttons">
-                    <button class="btn btn-primary spotify">
-                        <p>Listen On Spotify</p>
-                    </button>
-                    <button class="subscribe btn">Subscribe
-                    </button>
-                </div>
-            </div>
         </div>
-   </div>  
     </header>
     <main>
-        <section class="about-section">
+        <section class="about-section container">
             <div class="about-description">
                 <h2 class="text-B">About The Podcast</h2>
-                <p class="text-gray">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.We break down complex topics into digestible insights, explore productivity strategies that actually work,and share stories of personal growth from industry leaders.
-            <br>
-            <br>
-             Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-             </p>
-            </div> 
-        <div class="divider">  </div>
-        <div class="about-numbers">
-            <div class="number">
-                <h2 class="GG"> 150K+ </h2>
-                <p>MONTHLY LISTENERS</p>
+                <p class="text-gray about-p">TechWave is your go-to podcast for staying ahead in the fast-paced world of
+                    technology.We break down complex topics into digestible insights, explore productivity strategies
+                    that actually work,and share stories of personal growth from industry leaders.
+                    <br>
+                    <br>
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
             </div>
-            <div class="number">
-                <h2 class="GG">200+</h2>
-                <p>EPISODES PUBLISHED</p>
+
+            <div class="about-numbers">
+                <div class="number">
+                    <h2 class="GG"> 150K+ </h2>
+                    <p>MONTHLY LISTENERS</p>
+                </div>
+                <div class="number">
+                    <h2 class="GG">200+</h2>
+                    <p>EPISODES PUBLISHED</p>
+                </div>
+                <div class="number">
+                    <h2 class="GG">4.9*</h2>
+                    <p>AVERAGE RATING</p>
+                </div>
+                <div class="number">
+                    <h2 class="GG">50+ </h2>
+                    <p>INDUSTRY EXPERTS</p>
+                </div>
             </div>
-            <div class="number">
-                <h2
-                class="GG">4.9*</h2>
-                <p>AVERAGE RATING</p>
-            </div>
-            <div class="number">
-                <h2 class="GG">50+               </h2>
-                <p>INDUSTRY EXPERTS</p>
-            </div>
-        </div>
         </section>
-    </main>  
+
+        <div class="divider container"></div>
+
+        <section class="why-choose container">
+            <h2 class="text-B wcs-title">Why Choose Techwave</h2>
+            <div class="wcs-container">
+                <div class="card paq lift">
+                    <div>
+                        <img src="./assets/headphone.png" alt="">
+                        <h3>Premium Audio Quality</h3>
+                        <p>
+                            Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mf lift">
+                    <div>
+                        <img src="./assets/device.png" alt="">
+                        <h3>Mobile Friendly</h3>
+                        <p>
+                            Listen on the go with seamless mobile experience and offline downloads.
+                        </p>
+                    </div>
+                </div>
+                <div class="card gc lift">
+                    <div>
+                        <img src="./assets/location.png" alt="">
+                        <h3>Global Community</h3>
+                        <p>
+                            Connect with tech enthusiasts from over 120 countries worldwide.
+                        </p>
+                    </div>
+                </div>
+                <div class="card ei lift">
+                    <div>
+                        <img src="./assets/device.png" alt="">
+                        <h3>Exclusive Interviews</h3>
+                        <p>
+                            Get unprecedented access to industry titans, startup founders, and tech visionaries. Our
+                            host
+                            secures exclusive conversations you won't find anywhere else, diving deep into their
+                            journeys,
+                            failures, and success strategies.
+                        </p>
+                    </div>
+                </div>
+                <div class="card rr lift ">
+                    <div>
+                        <img src="./assets/resource.png" alt="">
+                        <h3>Rich Resources</h3>
+                        <p>
+                            Access show notes, transcripts, and additional learning materials for every episode.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>

@@ -1,4 +1,6 @@
-
+body{
+    background-color: #230E3D;
+}
 
 .navbar{
     display: flex;
@@ -94,11 +96,46 @@
 .text-gray{
     color: rgba(255, 255, 255, 0.7);
 }
+.text-B{
+    font: 3rem;
+}
 .gradient{
     background: linear-gradient(45deg,  #F7E93F, #FB09B4, #9100F8);
     background-clip: text;
     color: transparent;
 
 }
+/* about-section */
+.about section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px 120px ;
+    gap: 80px;
+}
+.about-section .divider{
+    height: 1px;
+    background:#2A186C ;
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.7);
+}
+.about-numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.number h2{
+    font-size: 3rem;
+    margin: 1rem;
+    color: #00FF88;
+}
+.number p {
+    color: rgba(255, 255, 255, 0.8);
+}
+.GG{
+    color: #00FF88;
+}
+
 
 
